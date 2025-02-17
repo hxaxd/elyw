@@ -1,7 +1,7 @@
 培训目标:
 
-* [了解提升效率的软件
-* [掌握寻找高效软件的能力
+* 了解提升效率的软件
+* 掌握寻找高效软件的能力
 
 培训实践:
 
@@ -9,16 +9,16 @@
 
 参考资料:
 
-* [[常用软件](https://www.bilibili.com/video/BV1tGkPYzErc/?spm_id_from=333.1387.homepage.video_card.click&vd_source=2499dec4a6dc444afbb1ff9583447bca)
+* [常用软件](https://www.bilibili.com/video/BV1tGkPYzErc/?spm_id_from=333.1387.homepage.video_card.click&vd_source=2499dec4a6dc444afbb1ff9583447bca)
 
 ### 对抗部分软件
 
 > 相关法律法规落实后,请善于使用应用自带的设置
 
-* [关闭自启动
-* [规定可能的存储位置
-* [关闭弹窗
-* [修改设置......
+* 关闭自启动
+* 规定可能的存储位置
+* 关闭弹窗
+* 修改设置......
 
 ### utools
 
