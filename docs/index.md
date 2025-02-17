@@ -1,6 +1,6 @@
 # e 路有我
 
-> _**"只有短命鬼才需要在幼儿园里就学会一切"---* [I'm a Dysfunctions;You're Dysfunctional by Wendy Kaminer**_
+> _**"只有短命鬼才需要在幼儿园里就学会一切" --- I'm a Dysfunctions;You're Dysfunctional by Wendy Kaminer**_
 
 ## 内容来源与格式
 
@@ -22,7 +22,7 @@
 
 ## 目录
 
-### (通识
+### 通识
 
 * Windows 系统环境配置:
   * [Windows 系统使用](通识/Windows系统使用)
