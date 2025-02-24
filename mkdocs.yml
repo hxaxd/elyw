@@ -1,9 +1,9 @@
 nav:
   - 目录: index.md
   - Windows 系统环境配置:
-    - Windows 系统使用: 通识/Windows系统使用.md
-    - 浏览器使用: 通识/浏览器使用.md
-    - Windows 系统上的软件: 通识/Windows系统上的软件.md
+    - Windows 系统使用: 通识/系统环境配置/Windows系统使用.md
+    - 浏览器使用: 通识/系统环境配置/浏览器使用.md
+    - Windows 系统上的软件: 通识/系统环境配置/Windows系统上的软件.md
   - 编程与编程语言:
     - 编程语言杂谈: 通识/编程语言杂谈.md
     - 编程实现原理: 通识/编程实现原理.md
