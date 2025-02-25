@@ -1,16 +1,16 @@
 nav:
-  - 目录: index.md
+  - 简介: index.md
   - Windows 系统环境配置:
     - Windows 系统使用: 通识/Windows系统环境配置/Windows系统使用.md
     - 浏览器使用: 通识/Windows系统环境配置/浏览器使用.md
     - Windows 系统上的软件: 通识/Windows系统环境配置/Windows系统上的软件.md
   - 编程与编程语言:
-    - 编程语言杂谈: 通识/编程语言杂谈.md
     - 编程实现原理: 通识/编程实现原理.md
     - C 语言: 通识/C语言.md
     - C 中的内存: 通识/C中的内存.md
     - 面向对象: 通识/面向对象.md
     - C++ 语言: 通识/C++语言.md
+    - 编程语言杂谈: 通识/编程语言杂谈.md
   - 开发环境配置:
     - 开发环境概念: 通识/开发环境概念.md
     - 开发环境配置: 通识/开发环境配置.md
@@ -63,6 +63,7 @@ nav:
 #    - Shell: Linux/Shell.md
 #    - Shell 上的软件: Linux/Shell上的软件.md
 #    - 管理 Linux: Linux/管理Linux.md
+  - 附录:
 
 
 site_name: e路有我
@@ -78,24 +79,19 @@ theme:
     code: JetBrains Mono
     text: JetBrains Mono
   features:
-    - navigation.tabs # 平铺导航栏
-    - navigation.tabs.sticky # 导航栏固定
     - header.autohide # 自动隐藏标题栏
     - navigation.footer # 页脚
     - navigation.instant # 即时加载, 本网站 url 变化时自动加载
     - navigation.tracking # 导航栏追踪锚点
-    - navigation.path # 显示路径
+    - navigation.expand # 导航栏展开
+    - navigation.indexes # 概述
+    - toc.follow # 目录跟随滚动
     - search.suggest # 搜索建议
     - search.highlight # 搜索结果高亮
     - content.code.copy # 代码块复制
 
 plugins:
   - search
-
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/hxaxd/
 
 repo_url: https://github.com/hxaxd/elyw
 repo_name: e路有我
@@ -105,12 +101,19 @@ markdown_extensions:
       generic: true
   - pymdownx.highlight: # 高亮依赖
       anchor_linenums: true
-  - pymdownx.superfences # 高亮
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.snippets: # 代码块
   - pymdownx.inlinehilite # 高亮增强
   - pymdownx.keys # 快捷键渲染
   - admonition # 提示框
   - pymdownx.details # 可折叠提示框
   - pymdownx.superfences # 提示框增强
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
 
 extra_javascript:
   - javascripts/katex.js
