@@ -37,6 +37,9 @@
 
 > 列举的不包括基础
 
+* [cs自学指南](https://csdiy.wiki/)
+* [精简的自学计算机](https://github.com/izackwu/TeachYourselfCS-CN/blob/master/TeachYourselfCS-CN.md)
+
 #### C语言
 
 - makefile

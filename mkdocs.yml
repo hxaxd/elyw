@@ -1,5 +1,9 @@
 nav:
   - 简介: index.md
+  - 算法竞赛: algorithm.md
+  - 工程学习路线: engineer.md
+  - 计算机科学家路线: scientist.md
+  - 基本工具: tools.md
 
 
 
@@ -30,7 +34,7 @@ theme:
 plugins:
   - search
 
-repo_url: https://github.com/hxaxd/elyw
+repo_url: https://www.elyw.cn/docs/
 repo_name: e路有我
 
 markdown_extensions:
